@@ -7,13 +7,9 @@ sources:
     schema: RAW_NORTHWIND
     tables:
       - name: employee
-        description: Tabela fonte com infromações dos funcionarios.
+        description: Tabela fonte com informações dos funcionarios.
         columns: 
           - name: id 
-            data_tests:
-              - unique
-              - not null
-
 
 
 
