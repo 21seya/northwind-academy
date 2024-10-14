@@ -10,6 +10,16 @@ sources:
         description: Tabela fonte com informações dos funcionarios.
         columns: 
           - name: id 
+        data_tests:
+          - unique
+          - not_null
+      
+      - name: product    
+      - name : category 
+      - name: supplier
+
+
+               
 
 
 
