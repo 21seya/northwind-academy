@@ -4,6 +4,7 @@ with
         from {{ source('erp_northwind', 'employee') }}
         
     )
+    
     , renomeacao as (
         select 
             cast(ID as int) as pk_funcionario ,
@@ -25,5 +26,6 @@ with
             --, cast(PHOTOPATH as varchar)    
         from fonte_funcionarios
     )
+
 select * 
 from renomeacao
