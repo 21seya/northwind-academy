@@ -14,7 +14,7 @@ with
                 when discontinued = '1' then true
                 when discontinued = '0' then false 
                 else null
-            end  as eh_descontinuado
+            end as eh_descontinuado
         from {{source ('erp_northwind','product')}}       
     )
 
